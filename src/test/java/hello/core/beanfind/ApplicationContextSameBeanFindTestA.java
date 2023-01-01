@@ -13,7 +13,7 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class ApplicationContextSameBeanFindTest {
+class ApplicationContextSameBeanFindTestA {
     AnnotationConfigApplicationContext ac = new
     AnnotationConfigApplicationContext(SameBeanConfig.class);
     @Test
